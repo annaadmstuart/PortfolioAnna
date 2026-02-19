@@ -2,6 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* * {
+    font-family: 'Oswald', sans-serif;
+}
+ */
+
 nav ul {
   display: flex;
   gap: 2rem;
@@ -15,6 +20,9 @@ nav a {
 }
 
 body {
+    margin: 2rem;
+    padding: 50px;
+    border: solid 2px #92305a;
     background-color:rgb(252, 252, 242);
     font-family:Georgia, 'Times New Roman', Times, serif
 }
@@ -34,11 +42,20 @@ h2 {
 ul {
     list-style-type: square;
     margin-left: 20px;
+    list-style: url('img/pontinhoroxo.jpg');
+}
+
+li {
+    margin-bottom: 0.8em;
+    color: #66194c;
 }
 
 a {
   color: #66194c;
   font-weight: bold;
+  background-color: rgb(248, 233, 243);
+  padding: 10px 15px;
+  
 }
 
 a:hover {
